@@ -1,6 +1,7 @@
 # Google Maps Area Calculator
 
 This application provides a simple way to calculate the area between multiple markers on Google Maps in a variety of units.
+![Application Preview](https://imgur.com/2HpX8Hx)
 
 ## Setup Guide
 
