@@ -31,6 +31,7 @@ public class Logger {
             }
             //Violation 3
             //https://wiki.sei.cmu.edu/confluence/display/java/FIO14-J.+Perform+proper+cleanup+at+program+termination
+            out.close();
             Runtime.getRuntime().exit(1);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
